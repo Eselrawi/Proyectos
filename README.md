@@ -1,8 +1,17 @@
-Tu Chef Personal es un proyecto de una aplicación móvil echa íntegramente por mi la cual le añades ingredientes y te genera una receta en base a lo que tienes, con historial de recentas guardadas, inicio de sesion y mucho mas.
+# Tu Chef Personal
+Aplicación móvil desarrollada íntegramente por mí. Permite introducir los ingredientes disponibles y generar recetas en función de ellos.
+Incluye un sistema de inicio de sesión, generación de recetas y un historial de recetas guardadas, además de otras funcionalidades orientadas a facilitar la planificación y búsqueda de recetas.
+
+# Seguimiento 40 %
+Informe técnico realizado durante mi etapa en CowOut para documentar el estado de desarrollo de un proyecto.
+
+El documento recoge las funcionalidades implementadas en ese momento, las tareas pendientes y el seguimiento del desarrollo. Posteriormente, las funcionalidades pendientes fueron completadas.
 
 
-Seguimiento 40 % es un breve informe que redacte en mi paso por CowOut donde explico que he implementado y que me faltaba por hacer (acabe haciendo todo)
+# Barbero, Cliente y Barbería
 
+Implementación del clásico problema de concurrencia de la barbería mediante un programa que modela la interacción entre barberos, clientes y la propia barbería.
 
-Barbero , Cliente y Barberia es el codigo que soluciona el clasico problema de programacion de la barberia , esta explicado en el codigo.
+El proyecto representa la llegada y atención de clientes y la disponibilidad de los barberos, aplicando los conceptos de programación necesarios para gestionar esta situación.
+
 
