@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alquinaterra · Herbolario ecológico en Galapagar</title>
+
+  <!--
+    LEYENDA DE CONTENIDO (ver también src/data/business.js)
+    [REAL]      Dato real y verificado.
+    [EJEMPLO]   Texto de ejemplo redactado para la maqueta. Revisar con el cliente.
+    [PENDIENTE] Hueco a completar con material o datos del cliente.
+    [PRUEBA]    Material provisional (fotos de Unsplash). Sustituir antes de publicar.
+  -->
+
+  <!-- [EJEMPLO] description redactada para la maqueta; nombre, localidad y categoría son [REAL] -->
+  <meta name="description" content="Alquinaterra, herbolario en Galapagar (Madrid): alimentación ecológica, cosmética natural, suplementos y esencias. C. de los Cantos, 24. Tel. 918 58 66 43.">
+  <meta name="theme-color" content="#4C5F33">
+  <!-- Maqueta de demostración: que no aparezca en Google como si fuera la web oficial del negocio -->
+  <meta name="robots" content="noindex, nofollow">
+  <!-- [PENDIENTE] cambiar por el dominio definitivo -->
+  <link rel="canonical" href="https://www.alquinaterra.es/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Alquinaterra · Herbolario ecológico en Galapagar">
+  <meta property="og:description" content="Alimentación ecológica, cosmética natural, suplementos y esencias en C. de los Cantos, 24, Galapagar.">
+  <!-- [PENDIENTE] og:image provisional; sustituir por foto real (1200×630) y usar URL absoluta del dominio -->
+  <meta property="og:image" content="/og-placeholder.png">
+  <meta property="og:image:alt" content="Imagen provisional de Alquinaterra, herbolario en Galapagar">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/logo-placeholder.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+  <!-- Tema guardado e intro una vez por sesión, antes del primer pintado -->
+  <script>
+    try { var t = localStorage.getItem('alq-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+    try { if (sessionStorage.getItem('alq-intro')) document.documentElement.classList.add('no-intro'); sessionStorage.setItem('alq-intro', '1'); } catch (e) {}
+  </script>
+
+  <!-- Datos estructurados. Todo [REAL] salvo url (dominio [PENDIENTE]).
+       Sin openingHours ni geo a propósito: no se publican datos sin confirmar. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Alquinaterra",
+    "description": "Herbolario: alimentación ecológica, cosmética natural, suplementos y esencias.",
+    "url": "https://www.alquinaterra.es/",
+    "telephone": "+34 918 58 66 43",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. de los Cantos, 24",
+      "postalCode": "28260",
+      "addressLocality": "Galapagar",
+      "addressRegion": "Madrid",
+      "addressCountry": "ES"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "60", "bestRating": "5" },
+    "sameAs": ["https://www.instagram.com/alquinaterra/"]
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <noscript>
+    <p style="padding:24px;font-family:sans-serif">Alquinaterra · Herbolario · C. de los Cantos, 24, 28260 Galapagar (Madrid) · Tel. 918 58 66 43 · Instagram @alquinaterra</p>
+  </noscript>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

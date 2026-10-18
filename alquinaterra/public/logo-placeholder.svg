@@ -1,0 +1,12 @@
+<!-- [PENDIENTE] Logo PROVISIONAL. Sustituir por el logo real del cliente
+     (árbol verde sobre fondo crudo con borde marrón-dorado). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Logotipo provisional de Alquinaterra">
+  <circle cx="32" cy="32" r="30" fill="#F2EDE1" stroke="#A2742B" stroke-width="3"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#C9A465" stroke-width="1" stroke-dasharray="2 2.5"/>
+  <path d="M32 50V30M32 38l-6-5M32 34l6-5" stroke="#5B4320" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <circle cx="32" cy="23" r="9" fill="#4C5F33"/>
+  <circle cx="24" cy="28" r="6.5" fill="#4C5F33"/>
+  <circle cx="40" cy="28" r="6.5" fill="#4C5F33"/>
+  <circle cx="28" cy="18" r="5" fill="#5E7340"/>
+  <path d="M22 50h20" stroke="#A2742B" stroke-width="2" stroke-linecap="round"/>
+</svg>

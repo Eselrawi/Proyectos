@@ -1,0 +1,52 @@
+# Publica los proyectos web en GitHub Pages cada vez que se sube un cambio a main.
+#   Alquinaterra → https://eselrawi.github.io/Proyectos/alquinaterra/
+name: Publicar en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: alquinaterra/package-lock.json
+      - name: Compilar Alquinaterra
+        working-directory: alquinaterra
+        run: |
+          npm ci
+          npm run build
+      - name: Preparar el sitio
+        run: |
+          mkdir -p _site
+          cp -r alquinaterra/dist _site/alquinaterra
+          cp site/index.html _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,18 @@
+Recursos gráficos del árbol 3D (hi = ordenador, lo = móvil)
+
+FUENTES (todas CC0, dominio público: uso libre, también comercial, sin atribución obligatoria)
+- Corteza: Poly Haven "Bark Willow 02" — https://polyhaven.com/a/bark_willow_02
+    bark_color  color retocado hacia la paleta de la foto de referencia (grietas oscuras, crestas gris-beige)
+    bark_normal mapa de normales · bark_arm (R oclusión, G rugosidad) · bark_height altura (desplaza la geometría)
+- Hojas: ambientCG "LeafSet023" y "LeafSet024" — https://ambientcg.com/a/LeafSet023 · /LeafSet024
+    leaf_color / leaf_alpha / leaf_normal / leaf_trans: atlas propio de 16 hojas (8x2 celdas), enderezadas
+    con el tallo abajo; translucidez de LeafSet023 (Scattering) y estimada para LeafSet024
+- Suelo: Poly Haven "Dry Ground 01" — https://polyhaven.com/a/dry_ground_01 (color templado)
+- Cielo: Poly Haven "Kloofendal 48d Partly Cloudy (Pure Sky)" (día) y "Qwantani Dusk 2 (Pure Sky)"
+    (modo oscuro) — sky_*.jpg fondo fotográfico, sky_*.hdr luz ambiental de la escena
+
+CREADO PARA ESTE PROYECTO
+- cut_wood: corte de madera (anillos irregulares, grietas de secado, borde gastado) para los muñones
+- meta.json: celdas del atlas, dirección del sol de cada cielo y color del horizonte (niebla)
+
+Se regeneran con el script tools/build_assets.py (ver README).

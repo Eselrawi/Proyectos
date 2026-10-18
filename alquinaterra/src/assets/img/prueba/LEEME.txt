@@ -1,0 +1,8 @@
+FOTOS DE PRUEBA — NO SON DEL CLIENTE
+Solo para enseñar el efecto de parallax en la maqueta. Sustituir por fotos reales
+de Alquinaterra antes de publicar la web.
+
+Fuente: Unsplash (licencia Unsplash, uso libre)
+- prueba-interior-unsplash-bundo-kim.jpg      https://unsplash.com/photos/ur2zmbseUIA  (Bundo Kim)
+- prueba-producto-unsplash-kelly-sikkema.jpg  https://images.unsplash.com/photo-1560521166-e4af6324303d (Kelly Sikkema)
+- prueba-esencias-unsplash-laura-olsen.jpg    https://images.unsplash.com/photo-1676852148076-7a92002419f3 (Laura Olsen)
