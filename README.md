@@ -1,6 +1,7 @@
 # Proyectos de Raúl Gómez
 
-Desarrollador web junior. Aquí tengo mis proyectos, cada uno en su carpeta y con su propio README.
+Desarrollador web junior. Aquí tengo mis proyectos, PULSA MANIFESTACION PARA VERLOS
+
 
 ## Web
 
