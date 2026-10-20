@@ -1,0 +1,99 @@
+{
+ "id": "ramen",
+ "crop": {
+  "cx": 0.5,
+  "cy": 0.5,
+  "r": 0.385
+ },
+ "restRadius": 0.72,
+ "ingredients": [
+  {
+   "id": "fideos",
+   "name": "Fideos en caldo rojo",
+   "category": "guarnición",
+   "description": "Fideos de trigo ondulados cocidos al dente en caldo de ternera con guindilla coreana.",
+   "allergens": [
+    "gluten",
+    "huevo",
+    "soja",
+    "apio"
+   ],
+   "points": [],
+   "rest": true,
+   "components": [
+    "caldo de ternera",
+    "gochugaru (guindilla coreana)",
+    "ajo",
+    "salsa de soja"
+   ]
+  },
+  {
+   "id": "cebolleta",
+   "name": "Cebolleta",
+   "category": "hoja",
+   "description": "Cebolleta fresca cortada fina.",
+   "allergens": [],
+   "points": [
+    [
+     0.4,
+     0.35
+    ],
+    [
+     0.46,
+     0.42
+    ],
+    [
+     0.64,
+     0.66
+    ],
+    [
+     0.535,
+     0.71
+    ],
+    [
+     0.42,
+     0.66
+    ],
+    [
+     0.755,
+     0.46
+    ]
+   ],
+   "maxArea": 0.01
+  },
+  {
+   "id": "carne",
+   "name": "Ternera desmenuzada",
+   "category": "proteína",
+   "description": "Ternera cocinada en el caldo y deshilachada.",
+   "allergens": [
+    "soja"
+   ],
+   "points": [
+    [
+     0.546,
+     0.385
+    ],
+    [
+     0.35,
+     0.57
+    ]
+   ],
+   "maxArea": 0.02
+  },
+  {
+   "id": "guindilla",
+   "name": "Guindilla",
+   "category": "topping",
+   "description": "Guindilla roja seca, para subir el picante.",
+   "allergens": [],
+   "points": [
+    [
+     0.554,
+     0.54
+    ]
+   ],
+   "maxArea": 0.01
+  }
+ ]
+}

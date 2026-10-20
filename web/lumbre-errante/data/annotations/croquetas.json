@@ -1,0 +1,71 @@
+{
+ "id": "croquetas",
+ "crop": {
+  "cx": 0.5,
+  "cy": 0.5,
+  "r": 0.375
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "croqueta",
+   "name": "Croqueta casera",
+   "category": "proteína",
+   "description": "Bechamel cremosa con jamón, rebozada en huevo y pan rallado.",
+   "allergens": [
+    "gluten",
+    "lacteos",
+    "huevo"
+   ],
+   "points": [
+    [
+     0.553,
+     0.175
+    ],
+    [
+     0.342,
+     0.28
+    ],
+    [
+     0.724,
+     0.368
+    ],
+    [
+     0.25,
+     0.526
+    ],
+    [
+     0.71,
+     0.667
+    ],
+    [
+     0.382,
+     0.79
+    ]
+   ],
+   "maxArea": 0.12
+  },
+  {
+   "id": "alioli",
+   "name": "Alioli",
+   "category": "salsa",
+   "description": "Emulsión de ajo y aceite, para mojar.",
+   "allergens": [
+    "huevo"
+   ],
+   "points": [
+    [
+     0.48,
+     0.5
+    ]
+   ],
+   "maxArea": 0.1,
+   "components": [
+    "aceite de oliva",
+    "ajo",
+    "huevo",
+    "limón"
+   ]
+  }
+ ]
+}

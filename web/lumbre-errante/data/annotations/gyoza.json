@@ -1,0 +1,61 @@
+{
+ "id": "gyoza",
+ "crop": {
+  "cx": 0.47,
+  "cy": 0.55,
+  "r": 0.46
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "gyoza",
+   "name": "Gyoza a la plancha",
+   "category": "proteína",
+   "description": "Masa fina de trigo rellena de cerdo, col y jengibre; dorada por abajo y al vapor.",
+   "allergens": [
+    "gluten",
+    "soja",
+    "sesamo"
+   ],
+   "points": [
+    [
+     0.42,
+     0.375
+    ],
+    [
+     0.26,
+     0.395
+    ],
+    [
+     0.63,
+     0.34
+    ],
+    [
+     0.72,
+     0.44
+    ],
+    [
+     0.78,
+     0.55
+    ],
+    [
+     0.22,
+     0.56
+    ],
+    [
+     0.44,
+     0.607
+    ],
+    [
+     0.69,
+     0.63
+    ],
+    [
+     0.625,
+     0.77
+    ]
+   ],
+   "maxArea": 0.1
+  }
+ ]
+}

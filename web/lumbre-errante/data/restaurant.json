@@ -1,0 +1,24 @@
+{
+  "name": "Lumbre Errante",
+  "slogan": "Cocina sin fronteras, a fuego lento",
+  "story": [
+    "Lumbre Errante nació en 2019 de un cuaderno de viaje lleno de manchas de salsa. Marta, que cocinaba en Valencia, y Dani, que venía de siete años de barras en Seúl y Estambul, juntaron las recetas que no querían olvidar.",
+    "Aquí el arroz se hace en paella de verdad y los gyozas se doran uno a uno. Cada plato viene de un sitio distinto y se cocina como en casa de quien nos lo enseñó, sin disfrazarlo.",
+    "La carta cambia poco, pero cambia. Si una receta nos la corrige una abuela turca o un cocinero coreano, la corregimos."
+  ],
+  "values": [
+    { "t": "Producto de mercado", "d": "Compramos a diario en pequeñas cantidades. Lo que no llega bueno, no sale." },
+    { "t": "Recetas con dueño", "d": "Cada plato lleva el nombre del sitio del que viene. Preguntad y os contamos quién nos lo enseñó." },
+    { "t": "Alérgenos claros", "d": "Todos los platos llevan los 14 alérgenos declarados. Ante la duda, preguntad al personal." }
+  ],
+  "address": "Calle del Cuaderno 14, 28012 Madrid (dirección ficticia)",
+  "phone": "910 000 123 (número ficticio)",
+  "email": "hola@lumbreerrante.example",
+  "hours": [
+    { "d": "Martes a jueves", "h": "13:00–16:00 · 20:00–23:30" },
+    { "d": "Viernes y sábado", "h": "13:00–16:30 · 20:00–00:30" },
+    { "d": "Domingo", "h": "13:00–17:00" },
+    { "d": "Lunes", "h": "Cerrado" }
+  ],
+  "notice": "Restaurante ficticio creado como demostración. Ni el local, ni los datos de contacto, ni las reservas son reales."
+}

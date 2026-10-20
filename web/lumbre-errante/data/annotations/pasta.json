@@ -1,0 +1,117 @@
+{
+ "id": "pasta",
+ "crop": {
+  "cx": 0.5,
+  "cy": 0.5,
+  "r": 0.5
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "espagueti",
+   "name": "Espagueti",
+   "category": "guarnición",
+   "description": "Pasta de sémola de trigo duro, cocida al dente.",
+   "allergens": [
+    "gluten"
+   ],
+   "points": [
+    [
+     0.59,
+     0.27
+    ],
+    [
+     0.145,
+     0.58
+    ],
+    [
+     0.43,
+     0.77
+    ],
+    [
+     0.2,
+     0.5
+    ],
+    [
+     0.7,
+     0.5
+    ],
+    [
+     0.62,
+     0.68
+    ],
+    [
+     0.25,
+     0.68
+    ],
+    [
+     0.5,
+     0.2
+    ]
+   ],
+   "maxArea": 0.3
+  },
+  {
+   "id": "albondiga",
+   "name": "Albóndigas en salsa de tomate",
+   "category": "proteína",
+   "description": "Ternera picada con pan, huevo, ajo y perejil, guisada en salsa de tomate.",
+   "allergens": [
+    "gluten",
+    "huevo",
+    "lacteos",
+    "apio"
+   ],
+   "points": [
+    [
+     0.46,
+     0.294
+    ],
+    [
+     0.64,
+     0.34
+    ],
+    [
+     0.32,
+     0.397
+    ],
+    [
+     0.615,
+     0.44
+    ],
+    [
+     0.43,
+     0.46
+    ],
+    [
+     0.37,
+     0.637
+    ],
+    [
+     0.665,
+     0.58
+    ],
+    [
+     0.625,
+     0.77
+    ],
+    [
+     0.43,
+     0.553
+    ],
+    [
+     0.53,
+     0.63
+    ]
+   ],
+   "maxArea": 0.22,
+   "components": [
+    "tomate",
+    "cebolla",
+    "ajo",
+    "albahaca",
+    "aceite de oliva"
+   ]
+  }
+ ]
+}

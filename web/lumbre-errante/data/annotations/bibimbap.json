@@ -1,0 +1,144 @@
+{
+ "id": "bibimbap",
+ "crop": {
+  "cx": 0.49,
+  "cy": 0.5,
+  "r": 0.375
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "huevo",
+   "name": "Huevo frito",
+   "category": "proteína",
+   "description": "Huevo frito con la yema líquida y sésamo por encima.",
+   "allergens": [
+    "huevo",
+    "sesamo"
+   ],
+   "points": [
+    [
+     0.62,
+     0.386
+    ]
+   ],
+   "maxArea": 0.2
+  },
+  {
+   "id": "lombarda",
+   "name": "Col lombarda fermentada",
+   "category": "guarnición",
+   "description": "Col morada encurtida, ácida y crujiente.",
+   "allergens": [
+    "sulfitos"
+   ],
+   "points": [
+    [
+     0.23,
+     0.42
+    ],
+    [
+     0.25,
+     0.6
+    ]
+   ],
+   "maxArea": 0.12
+  },
+  {
+   "id": "kimchi",
+   "name": "Kimchi de rábano",
+   "category": "guarnición",
+   "description": "Rábano fermentado con guindilla, ajo y salsa de pescado.",
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "points": [
+    [
+     0.447,
+     0.737
+    ],
+    [
+     0.58,
+     0.8
+    ]
+   ],
+   "maxArea": 0.15
+  },
+  {
+   "id": "tofu",
+   "name": "Tofu",
+   "category": "proteína",
+   "description": "Tofu firme en dados, con un toque de guindilla.",
+   "allergens": [
+    "soja"
+   ],
+   "points": [
+    [
+     0.717,
+     0.64
+    ],
+    [
+     0.776,
+     0.456
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "hojas-verdes",
+   "name": "Hojas verdes",
+   "category": "hoja",
+   "description": "Brotes tiernos de rúcula y espinaca.",
+   "allergens": [],
+   "points": [
+    [
+     0.26,
+     0.2
+    ],
+    [
+     0.38,
+     0.167
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "zanahoria",
+   "name": "Zanahoria",
+   "category": "guarnición",
+   "description": "Zanahoria en juliana, salteada.",
+   "allergens": [],
+   "points": [
+    [
+     0.75,
+     0.3
+    ]
+   ],
+   "maxArea": 0.04
+  },
+  {
+   "id": "gochujang",
+   "name": "Gochujang",
+   "category": "salsa",
+   "description": "Pasta fermentada de guindilla, dulce y picante.",
+   "allergens": [
+    "soja",
+    "gluten"
+   ],
+   "points": [
+    [
+     0.36,
+     0.245
+    ]
+   ],
+   "maxArea": 0.06,
+   "components": [
+    "guindilla coreana",
+    "arroz glutinoso",
+    "soja fermentada",
+    "sal"
+   ]
+  }
+ ]
+}

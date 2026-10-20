@@ -1,0 +1,157 @@
+{
+ "id": "poke",
+ "crop": {
+  "cx": 0.457,
+  "cy": 0.45,
+  "r": 0.3
+ },
+ "restRadius": 0.85,
+ "ingredients": [
+  {
+   "id": "arroz",
+   "name": "Arroz de sushi",
+   "category": "guarnición",
+   "description": "Arroz pegajoso aliñado con vinagre de arroz.",
+   "allergens": [
+    "sulfitos"
+   ],
+   "points": [
+    [
+     0.447,
+     0.754
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "edamame",
+   "name": "Edamame",
+   "category": "topping",
+   "description": "Haba de soja tierna, hervida y desgranada.",
+   "allergens": [
+    "soja"
+   ],
+   "points": [
+    [
+     0.355,
+     0.242
+    ],
+    [
+     0.41,
+     0.21
+    ]
+   ],
+   "maxArea": 0.05
+  },
+  {
+   "id": "mango",
+   "name": "Mango",
+   "category": "topping",
+   "description": "Dados de mango maduro.",
+   "allergens": [],
+   "points": [
+    [
+     0.54,
+     0.19
+    ],
+    [
+     0.6,
+     0.255
+    ]
+   ],
+   "maxArea": 0.05
+  },
+  {
+   "id": "wakame",
+   "name": "Alga wakame",
+   "category": "hoja",
+   "description": "Alga marinada, suave y ligeramente dulce.",
+   "allergens": [
+    "sesamo"
+   ],
+   "points": [
+    [
+     0.25,
+     0.4
+    ]
+   ],
+   "maxArea": 0.08
+  },
+  {
+   "id": "tofu-marinado",
+   "name": "Tofu marinado",
+   "category": "proteína",
+   "description": "Tofu firme marinado en soja y jengibre.",
+   "allergens": [
+    "soja",
+    "sesamo"
+   ],
+   "points": [
+    [
+     0.38,
+     0.47
+    ],
+    [
+     0.526,
+     0.34
+    ]
+   ],
+   "maxArea": 0.08
+  },
+  {
+   "id": "tofu-frito",
+   "name": "Tofu frito",
+   "category": "proteína",
+   "description": "Tiras de tofu frito, dulces y crujientes.",
+   "allergens": [
+    "soja"
+   ],
+   "points": [
+    [
+     0.51,
+     0.58
+    ],
+    [
+     0.55,
+     0.7
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "aguacate",
+   "name": "Aguacate",
+   "category": "topping",
+   "description": "Aguacate maduro, cremoso.",
+   "allergens": [],
+   "points": [
+    [
+     0.296,
+     0.614
+    ]
+   ],
+   "maxArea": 0.06
+  },
+  {
+   "id": "pepino",
+   "name": "Pepino encurtido",
+   "category": "topping",
+   "description": "Pepino en láminas, aliñado con vinagre y sésamo.",
+   "allergens": [
+    "sesamo",
+    "sulfitos"
+   ],
+   "points": [
+    [
+     0.63,
+     0.456
+    ],
+    [
+     0.7,
+     0.4
+    ]
+   ],
+   "maxArea": 0.08
+  }
+ ]
+}

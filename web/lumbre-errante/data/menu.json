@@ -1,0 +1,726 @@
+{
+  "_nota": "Precios en euros, IVA incluido, pendientes de confirmar por el restaurante. Los modelos 3D son escaneos de Sketchfab (CC BY): ver credit y /creditos. position/normal de cada ingrediente están en el espacio del modelo (se sacan con /dev/scans). orientation y orbit son opcionales.",
+  "categories": [
+    {
+      "id": "entrantes",
+      "name": "Entrantes"
+    },
+    {
+      "id": "principales",
+      "name": "Principales"
+    },
+    {
+      "id": "postres",
+      "name": "Postres"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "croquetas",
+      "name": "Croquetas caseras con tomate",
+      "country": "España",
+      "category": "entrantes",
+      "price": 8.5,
+      "description": "Croquetas cremosas, rebozadas al momento, con salsa de tomate y albahaca.",
+      "tags": [
+        "vegetariano"
+      ],
+      "star": false,
+      "credit": {
+        "title": "Scan 2023-04-22",
+        "author": "EGFoodScans",
+        "uid": "ec21ec2dabc849f8a2eb9aff094f838c"
+      },
+      "ingredients": [
+        {
+          "id": "croqueta",
+          "name": "Croquetas",
+          "category": "proteína",
+          "description": "Bechamel espesa rebozada en pan rallado y huevo, fritas hasta quedar crujientes.",
+          "allergens": [
+            "gluten",
+            "huevo",
+            "lacteos"
+          ],
+          "position": "0.0341 0.0712 0.015",
+          "normal": "0.176 0.839 -0.514"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa de tomate",
+          "category": "salsa",
+          "description": "Tomate cocinado despacio con aceite de oliva, para mojar.",
+          "allergens": [],
+          "position": "-0.0483 0.0443 -0.0137",
+          "normal": "0.121 0.992 -0.038"
+        },
+        {
+          "id": "albahaca",
+          "name": "Albahaca",
+          "category": "hoja",
+          "description": "Hoja fresca sobre la salsa.",
+          "allergens": [],
+          "position": "-0.0405 0.0478 0.0085",
+          "normal": "0.519 0.265 0.812"
+        }
+      ]
+    },
+    {
+      "id": "tortilla",
+      "name": "Tortilla de patatas",
+      "country": "España",
+      "category": "entrantes",
+      "price": 9.5,
+      "description": "Patata y huevo cuajados jugosos por dentro y dorados por fuera.",
+      "tags": [
+        "vegetariano",
+        "sin-gluten"
+      ],
+      "star": false,
+      "credit": {
+        "title": "Spanish omelette",
+        "author": "JuanG3D",
+        "uid": "fbfcdb51466045cca7b88a903cf02807"
+      },
+      "ingredients": [
+        {
+          "id": "patata",
+          "name": "Patata",
+          "category": "guarnición",
+          "description": "Patata cortada fina y pochada despacio en aceite de oliva.",
+          "allergens": [],
+          "position": "-2.1017 0.9905 -1.6021",
+          "normal": "0.031 0.987 -0.155"
+        },
+        {
+          "id": "huevo",
+          "name": "Huevo",
+          "category": "proteína",
+          "description": "Huevos batidos que ligan la tortilla y forman la costra dorada.",
+          "allergens": [
+            "huevo"
+          ],
+          "position": "2.7709 1.2532 1.6421",
+          "normal": "-0.161 0.977 -0.142"
+        },
+        {
+          "id": "cebolla",
+          "name": "Cebolla",
+          "category": "topping",
+          "description": "Cebolla pochada que le da dulzor.",
+          "allergens": [],
+          "position": "-2.621 1.0902 2.9402",
+          "normal": "0.117 0.993 -0.021"
+        }
+      ]
+    },
+    {
+      "id": "gyozas",
+      "name": "Gyozas a la plancha",
+      "country": "Japón",
+      "category": "entrantes",
+      "price": 8.9,
+      "description": "Empanadillas de cerdo y col, doradas por un lado, con salsa de soja y vinagre.",
+      "tags": [],
+      "star": false,
+      "credit": {
+        "title": "Scan 2023-04-12",
+        "author": "EGFoodScans",
+        "uid": "0736541d155240b698bd5fb93c39c183"
+      },
+      "ingredients": [
+        {
+          "id": "gyoza1",
+          "name": "Gyozas",
+          "category": "proteína",
+          "description": "Masa fina rellena de cerdo y col, sellada en plancha hasta dorarse por debajo.",
+          "allergens": [
+            "gluten",
+            "soja"
+          ],
+          "position": "-0.0123 0.0262 -0.0389",
+          "normal": "-0.549 0.759 -0.351"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa de soja y vinagre",
+          "category": "salsa",
+          "description": "Soja, vinagre de arroz y un toque de aceite de guindilla.",
+          "allergens": [
+            "soja",
+            "sesamo"
+          ],
+          "position": "-0.0307 0.0136 0.0252",
+          "normal": "-0.242 0.97 -0.006"
+        }
+      ]
+    },
+    {
+      "id": "sashimi",
+      "name": "Sashimi variado",
+      "country": "Japón",
+      "category": "entrantes",
+      "price": 16.5,
+      "description": "Salmón, atún y pescado blanco cortados a mano, con wasabi y rábano daikon.",
+      "tags": [
+        "sin-gluten"
+      ],
+      "star": false,
+      "orientation": "0deg 0deg -6deg",
+      "credit": {
+        "title": "Scan 2023-04-09",
+        "author": "EGFoodScans",
+        "uid": "5bf231da38314d80b8ce695e41907b4e"
+      },
+      "ingredients": [
+        {
+          "id": "salmon",
+          "name": "Salmón",
+          "category": "proteína",
+          "description": "Lomo de salmón cortado al sesgo, sin cocinar.",
+          "allergens": [
+            "pescado"
+          ],
+          "position": "0.0805 0.0604 -0.0219",
+          "normal": "-0.53 0.479 0.7"
+        },
+        {
+          "id": "atun",
+          "name": "Atún",
+          "category": "proteína",
+          "description": "Atún rojo cortado en láminas gruesas.",
+          "allergens": [
+            "pescado"
+          ],
+          "position": "-0.0045 0.0705 -0.0392",
+          "normal": "-0.354 0.705 0.615"
+        },
+        {
+          "id": "wasabi",
+          "name": "Wasabi",
+          "category": "salsa",
+          "description": "Pasta de rábano picante japonés. Pica mucho: con poca cantidad basta.",
+          "allergens": [],
+          "position": "0.113 0.0414 0.0866",
+          "normal": "0.019 0.999 -0.031"
+        },
+        {
+          "id": "wakame",
+          "name": "Alga wakame",
+          "category": "hoja",
+          "description": "Alga marinada, suave y ligeramente dulce.",
+          "allergens": [
+            "soja",
+            "sesamo"
+          ],
+          "position": "-0.0682 0.0577 0.0435",
+          "normal": "0.17 0.452 -0.876"
+        },
+        {
+          "id": "daikon",
+          "name": "Daikon",
+          "category": "topping",
+          "description": "Rábano japonés cortado en hilos para acompañar el pescado.",
+          "allergens": [],
+          "position": "0.0445 0.0407 -0.063",
+          "normal": "0.093 0.989 -0.118"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza de bresaola y rúcula",
+      "country": "Italia",
+      "category": "principales",
+      "price": 13.5,
+      "description": "Masa fina de borde alto, tomate, mozzarella, bresaola y rúcula fresca.",
+      "tags": [],
+      "star": false,
+      "credit": {
+        "title": "Pizza",
+        "author": "Rigsters",
+        "uid": "40d50989fec1460f8838b608d999ccd0"
+      },
+      "ingredients": [
+        {
+          "id": "rucula",
+          "name": "Rúcula",
+          "category": "hoja",
+          "description": "Rúcula fresca, añadida al sacar la pizza del horno.",
+          "allergens": [],
+          "position": "-0.0411 0.0022 -0.0888",
+          "normal": "-0.086 0.989 -0.119"
+        },
+        {
+          "id": "bresaola",
+          "name": "Bresaola",
+          "category": "proteína",
+          "description": "Ternera curada y laminada, de sabor suave.",
+          "allergens": [],
+          "position": "0.1555 0.0088 0.0483",
+          "normal": "-0.031 0.979 -0.204"
+        },
+        {
+          "id": "masa",
+          "name": "Masa",
+          "category": "guarnición",
+          "description": "Masa de fermentación lenta, con borde alto y aireado.",
+          "allergens": [
+            "gluten"
+          ],
+          "position": "-0.0409 0.0199 0.2234",
+          "normal": "0.597 0.797 0.091"
+        },
+        {
+          "id": "tomate",
+          "name": "Tomate y mozzarella",
+          "category": "salsa",
+          "description": "Salsa de tomate natural con mozzarella fundida.",
+          "allergens": [
+            "lacteos"
+          ],
+          "position": "-0.1743 0.0123 0.037",
+          "normal": "0.011 0.905 0.425"
+        }
+      ]
+    },
+    {
+      "id": "espaguetis",
+      "name": "Espaguetis al tomate y albahaca",
+      "country": "Italia",
+      "category": "principales",
+      "price": 12.5,
+      "description": "Pasta al dente con tomate, queso rallado y albahaca fresca.",
+      "tags": [
+        "vegetariano"
+      ],
+      "star": false,
+      "credit": {
+        "title": "Spaghetti Dish 3d scanned",
+        "author": "huggylongnap99",
+        "uid": "9a918bd4c0964863a5926fdff1411230"
+      },
+      "ingredients": [
+        {
+          "id": "albahaca",
+          "name": "Albahaca",
+          "category": "hoja",
+          "description": "Hojas frescas, añadidas al final para que no pierdan aroma.",
+          "allergens": [],
+          "position": "0.063 0.3097 -0.2543",
+          "normal": "-0.472 0.828 -0.304"
+        },
+        {
+          "id": "tomate",
+          "name": "Tomate cherry",
+          "category": "topping",
+          "description": "Tomate cherry fresco, apenas pasado por la sartén.",
+          "allergens": [],
+          "position": "0.2361 0.2659 -0.1305",
+          "normal": "0.373 0.914 0.158"
+        },
+        {
+          "id": "pasta",
+          "name": "Espaguetis",
+          "category": "guarnición",
+          "description": "Pasta de sémola de trigo duro, cocida al dente.",
+          "allergens": [
+            "gluten"
+          ],
+          "position": "-0.6125 -0.1233 0.0464",
+          "normal": "0.512 0.753 -0.413"
+        },
+        {
+          "id": "queso",
+          "name": "Queso rallado",
+          "category": "topping",
+          "description": "Parmesano rallado en el momento.",
+          "allergens": [
+            "lacteos"
+          ],
+          "position": "-0.3634 -0.0028 -0.2863",
+          "normal": "-0.096 0.976 -0.196"
+        }
+      ]
+    },
+    {
+      "id": "ramen",
+      "name": "Ramen de miso picante",
+      "country": "Japón",
+      "category": "principales",
+      "price": 14.5,
+      "description": "Caldo de miso con un toque picante, fideos, panceta, huevo y cebolleta.",
+      "tags": [],
+      "star": true,
+      "orbit": "0deg 35deg auto",
+      "credit": {
+        "title": "Scan 2023-05-08",
+        "author": "EGFoodScans",
+        "uid": "db8cbb282c044c4ca0b3c910158f3ec7"
+      },
+      "ingredients": [
+        {
+          "id": "huevo",
+          "name": "Huevo marinado",
+          "category": "proteína",
+          "description": "Huevo cocido siete minutos y marinado en soja, con la yema cremosa.",
+          "allergens": [
+            "huevo",
+            "soja"
+          ],
+          "position": "-0.019 0.0557 -0.0542",
+          "normal": "0.281 0.951 -0.131"
+        },
+        {
+          "id": "chashu",
+          "name": "Panceta chashu",
+          "category": "proteína",
+          "description": "Panceta de cerdo braseada despacio y laminada, con sésamo tostado.",
+          "allergens": [
+            "soja",
+            "sesamo"
+          ],
+          "position": "0.0493 0.0511 -0.0203",
+          "normal": "-0.042 0.99 0.131"
+        },
+        {
+          "id": "cebolleta",
+          "name": "Cebolleta",
+          "category": "hoja",
+          "description": "Cebolleta cortada fina, para dar frescor.",
+          "allergens": [],
+          "position": "-0.0567 0.0572 0.0291",
+          "normal": "0.169 0.45 0.877"
+        },
+        {
+          "id": "germinados",
+          "name": "Brotes de soja",
+          "category": "topping",
+          "description": "Brotes crujientes con un poco de guindilla en polvo.",
+          "allergens": [
+            "soja"
+          ],
+          "position": "-0.0266 0.0593 0.0051",
+          "normal": "0.782 0.595 -0.187"
+        },
+        {
+          "id": "alga",
+          "name": "Hongo kikurage",
+          "category": "topping",
+          "description": "Hongo negro de textura crujiente, típico del ramen.",
+          "allergens": [],
+          "position": "-0.0648 0.0545 -0.0276",
+          "normal": "0.125 0.938 0.322"
+        },
+        {
+          "id": "menma",
+          "name": "Menma",
+          "category": "topping",
+          "description": "Brotes de bambú fermentados y cocidos en soja.",
+          "allergens": [
+            "soja",
+            "gluten"
+          ],
+          "position": "-0.0271 0.0504 0.0827",
+          "normal": "0.067 0.998 -0.007"
+        }
+      ]
+    },
+    {
+      "id": "burger",
+      "name": "Hamburguesa con patatas",
+      "country": "EE. UU.",
+      "category": "principales",
+      "price": 14.9,
+      "description": "Ternera a la plancha con queso fundido, lechuga, tomate y cebolla morada, y patatas fritas.",
+      "tags": [],
+      "star": false,
+      "orbit": "20deg 40deg auto",
+      "credit": {
+        "title": "Burger",
+        "author": "Keith Ito",
+        "uid": "0d339a3a91304192b4fc8d61ebd48bb1"
+      },
+      "ingredients": [
+        {
+          "id": "pan",
+          "name": "Pan brioche",
+          "category": "guarnición",
+          "description": "Pan brioche tostado en mantequilla.",
+          "allergens": [
+            "gluten",
+            "lacteos",
+            "huevo",
+            "sesamo"
+          ],
+          "position": "0.0621 0.1181 -0.0346",
+          "normal": "0.114 0.973 0.203"
+        },
+        {
+          "id": "carne",
+          "name": "Hamburguesa de ternera",
+          "category": "proteína",
+          "description": "Carne de ternera a la plancha, jugosa por dentro y con costra por fuera.",
+          "allergens": [],
+          "position": "0.0771 0.0643 0.0127",
+          "normal": "0.15 0.515 0.844"
+        },
+        {
+          "id": "lechuga",
+          "name": "Lechuga",
+          "category": "hoja",
+          "description": "Lechuga romana, crujiente.",
+          "allergens": [],
+          "position": "-0.011 0.0641 -0.0533",
+          "normal": "0.083 0.995 0.058"
+        },
+        {
+          "id": "patatas",
+          "name": "Patatas fritas",
+          "category": "guarnición",
+          "description": "Patata cortada a mano y frita dos veces.",
+          "allergens": [],
+          "position": "-0.0795 0.0558 -0.0454",
+          "normal": "0.823 0.546 0.158"
+        }
+      ]
+    },
+    {
+      "id": "arroz",
+      "name": "Arroz con gamba y mejillones",
+      "country": "España",
+      "category": "principales",
+      "price": 17.5,
+      "description": "Arroz meloso con gamba a la plancha, mejillones, limón asado y hierbas.",
+      "tags": [
+        "sin-gluten"
+      ],
+      "star": false,
+      "orbit": "0deg 0deg 70%",
+      "credit": {
+        "title": "Scan 2023-05-09",
+        "author": "EGFoodScans",
+        "uid": "49b1667025774abe831daa333fe4c3ff"
+      },
+      "ingredients": [
+        {
+          "id": "gamba",
+          "name": "Gamba",
+          "category": "proteína",
+          "description": "Gamba grande a la plancha con su cabeza.",
+          "allergens": [
+            "crustaceos"
+          ],
+          "position": "-0.0279 0.0754 -0.002",
+          "normal": "-0.437 0.857 0.274"
+        },
+        {
+          "id": "mejillon",
+          "name": "Mejillones",
+          "category": "proteína",
+          "description": "Mejillones abiertos al vapor.",
+          "allergens": [
+            "moluscos"
+          ],
+          "position": "0.0788 0.0288 -0.0175",
+          "normal": "0.245 0.907 -0.342"
+        },
+        {
+          "id": "limon",
+          "name": "Limón asado",
+          "category": "topping",
+          "description": "Medio limón asado para exprimir por encima.",
+          "allergens": [],
+          "position": "-0.0528 0.0346 -0.0872",
+          "normal": "0.352 0.921 -0.165"
+        },
+        {
+          "id": "hierbas",
+          "name": "Hierbas frescas",
+          "category": "hoja",
+          "description": "Eneldo y perejil picados al final.",
+          "allergens": [],
+          "position": "0.0114 0.0284 -0.0473",
+          "normal": "0.372 0.928 0.009"
+        }
+      ]
+    },
+    {
+      "id": "libanes",
+      "name": "Plato libanés mixto",
+      "country": "Líbano",
+      "category": "principales",
+      "price": 16.9,
+      "description": "Hummus, kofta a la parrilla, bulgur, ensalada y salsa de yogur.",
+      "tags": [],
+      "star": false,
+      "credit": {
+        "title": "Scan 2023-05-07",
+        "author": "EGFoodScans",
+        "uid": "d5c21f2b64504d0cb963d77a807d3021"
+      },
+      "ingredients": [
+        {
+          "id": "hummus",
+          "name": "Hummus",
+          "category": "salsa",
+          "description": "Crema de garbanzo con tahini, limón y ajo.",
+          "allergens": [
+            "sesamo"
+          ],
+          "position": "0.1017 0.0232 -0.0984",
+          "normal": "-0.413 0.899 0.147"
+        },
+        {
+          "id": "kofta",
+          "name": "Kofta",
+          "category": "proteína",
+          "description": "Brochetas de carne especiada hechas a la parrilla.",
+          "allergens": [],
+          "position": "-0.0563 0.0591 0.0515",
+          "normal": "0.321 0.616 -0.719"
+        },
+        {
+          "id": "bulgur",
+          "name": "Bulgur",
+          "category": "guarnición",
+          "description": "Trigo partido cocinado con tomate y especias.",
+          "allergens": [
+            "gluten"
+          ],
+          "position": "-0.1259 0.0188 -0.04",
+          "normal": "-0.666 0.686 0.293"
+        },
+        {
+          "id": "pepino",
+          "name": "Pepino",
+          "category": "topping",
+          "description": "Pepino fresco en rodajas.",
+          "allergens": [],
+          "position": "0.0756 0.0295 0.0859",
+          "normal": "-0.071 0.995 -0.068"
+        },
+        {
+          "id": "tomate",
+          "name": "Tomate",
+          "category": "topping",
+          "description": "Rodajas de tomate con un hilo de aceite.",
+          "allergens": [],
+          "position": "0.0009 0.0455 -0.0583",
+          "normal": "0.78 0.499 -0.379"
+        }
+      ]
+    },
+    {
+      "id": "tarta",
+      "name": "Tarta de queso al horno",
+      "country": "España",
+      "category": "postres",
+      "price": 6.9,
+      "description": "Tarta de queso cremosa con la superficie caramelizada y base de galleta.",
+      "tags": [
+        "vegetariano"
+      ],
+      "star": false,
+      "orbit": "-25deg 55deg auto",
+      "credit": {
+        "title": "Cheese Cake",
+        "author": "rebuilderai",
+        "uid": "7290e12a31d04cb3892049f379c4bafb"
+      },
+      "ingredients": [
+        {
+          "id": "costra",
+          "name": "Superficie caramelizada",
+          "category": "topping",
+          "description": "El horno la deja dorada y ligeramente tostada.",
+          "allergens": [
+            "lacteos",
+            "huevo"
+          ],
+          "position": "-0.0175 0.0262 -0.0116",
+          "normal": "-0.062 0.993 -0.1"
+        },
+        {
+          "id": "queso",
+          "name": "Crema de queso",
+          "category": "guarnición",
+          "description": "Queso crema, nata y huevo, cocinados a baja temperatura.",
+          "allergens": [
+            "lacteos",
+            "huevo"
+          ],
+          "position": "-0.0221 0.0174 0.0236",
+          "normal": "-0.731 0.347 0.588"
+        },
+        {
+          "id": "base",
+          "name": "Base de galleta",
+          "category": "guarnición",
+          "description": "Galleta triturada con mantequilla.",
+          "allergens": [
+            "gluten",
+            "lacteos"
+          ],
+          "position": "-0.0251 -0.0146 0.0288",
+          "normal": "-0.659 0.09 0.747"
+        }
+      ]
+    },
+    {
+      "id": "chocolate",
+      "name": "Tarta de chocolate con nata",
+      "country": "EE. UU.",
+      "category": "postres",
+      "price": 7.2,
+      "description": "Porción de tarta de chocolate con virutas y nata montada.",
+      "tags": [
+        "vegetariano"
+      ],
+      "star": false,
+      "orbit": "0deg 35deg auto",
+      "credit": {
+        "title": "Dessert For Breakfast",
+        "author": "Spenser C Dickerson",
+        "uid": "eaad34d0a1ab47b0a2a29c83d6fc22ba"
+      },
+      "ingredients": [
+        {
+          "id": "bizcocho",
+          "name": "Tarta de chocolate",
+          "category": "guarnición",
+          "description": "Crema de chocolate densa sobre base de galleta.",
+          "allergens": [
+            "gluten",
+            "lacteos",
+            "huevo"
+          ],
+          "position": "-0.1315 3.8489 -3.6958",
+          "normal": "0.787 -0.022 0.616"
+        },
+        {
+          "id": "nata",
+          "name": "Nata montada",
+          "category": "salsa",
+          "description": "Nata montada con un poco de chocolate rallado.",
+          "allergens": [
+            "lacteos"
+          ],
+          "position": "-0.7388 3.714 -3.3429",
+          "normal": "-0.006 0.761 0.649"
+        },
+        {
+          "id": "virutas",
+          "name": "Virutas de chocolate",
+          "category": "topping",
+          "description": "Virutas de chocolate negro por encima.",
+          "allergens": [
+            "lacteos"
+          ],
+          "position": "-0.1334 4.0816 -3.9539",
+          "normal": "-0.187 0.965 0.182"
+        }
+      ]
+    }
+  ]
+}

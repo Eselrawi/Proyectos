@@ -1,0 +1,170 @@
+{
+ "id": "pannacotta",
+ "crop": {
+  "cx": 0.48,
+  "cy": 0.5,
+  "r": 0.37
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "panna-cotta",
+   "name": "Panna cotta",
+   "category": "guarnición",
+   "description": "Nata cuajada con vainilla, temblorosa.",
+   "allergens": [
+    "lacteos"
+   ],
+   "points": [
+    [
+     0.507,
+     0.544
+    ]
+   ],
+   "maxArea": 0.12
+  },
+  {
+   "id": "fresa",
+   "name": "Fresa",
+   "category": "topping",
+   "description": "Fresa partida por la mitad.",
+   "allergens": [],
+   "points": [
+    [
+     0.37,
+     0.36
+    ],
+    [
+     0.67,
+     0.41
+    ],
+    [
+     0.38,
+     0.7
+    ],
+    [
+     0.566,
+     0.77
+    ]
+   ],
+   "maxArea": 0.07
+  },
+  {
+   "id": "mora",
+   "name": "Mora",
+   "category": "topping",
+   "description": "Mora silvestre, ácida y jugosa.",
+   "allergens": [],
+   "points": [
+    [
+     0.25,
+     0.3
+    ],
+    [
+     0.7,
+     0.84
+    ]
+   ],
+   "maxArea": 0.04
+  },
+  {
+   "id": "arandano",
+   "name": "Arándano",
+   "category": "topping",
+   "description": "Arándano azul entero.",
+   "allergens": [],
+   "points": [
+    [
+     0.35,
+     0.114
+    ],
+    [
+     0.44,
+     0.205
+    ],
+    [
+     0.734,
+     0.526
+    ],
+    [
+     0.162,
+     0.584
+    ],
+    [
+     0.22,
+     0.547
+    ]
+   ],
+   "maxArea": 0.02
+  },
+  {
+   "id": "grosella-roja",
+   "name": "Grosella roja",
+   "category": "topping",
+   "description": "Racimo de grosellas rojas.",
+   "allergens": [],
+   "points": [
+    [
+     0.197,
+     0.667
+    ]
+   ],
+   "maxArea": 0.06
+  },
+  {
+   "id": "grosella-espinosa",
+   "name": "Grosella espinosa",
+   "category": "topping",
+   "description": "Fruta ácida, translúcida y con venas.",
+   "allergens": [],
+   "points": [
+    [
+     0.533,
+     0.149
+    ],
+    [
+     0.188,
+     0.453
+    ],
+    [
+     0.79,
+     0.688
+    ],
+    [
+     0.375,
+     0.912
+    ]
+   ],
+   "maxArea": 0.04
+  },
+  {
+   "id": "menta",
+   "name": "Menta",
+   "category": "hoja",
+   "description": "Hojas de menta fresca.",
+   "allergens": [],
+   "points": [
+    [
+     0.58,
+     0.51
+    ]
+   ],
+   "maxArea": 0.03
+  },
+  {
+   "id": "coulis",
+   "name": "Coulis de frutos rojos",
+   "category": "salsa",
+   "description": "Frutos rojos cocidos y colados.",
+   "allergens": [],
+   "points": [],
+   "rest": true,
+   "components": [
+    "fresa",
+    "frambuesa",
+    "azúcar",
+    "limón"
+   ]
+  }
+ ]
+}

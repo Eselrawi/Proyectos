@@ -1,0 +1,72 @@
+{
+ "id": "baklava",
+ "crop": {
+  "cx": 0.5,
+  "cy": 0.51,
+  "r": 0.47
+ },
+ "restRadius": 0.78,
+ "ingredients": [
+  {
+   "id": "baklava",
+   "name": "Hojaldre filo con nueces",
+   "category": "proteína",
+   "description": "Capas finísimas de masa filo con nueces picadas y mantequilla.",
+   "allergens": [
+    "gluten",
+    "frutos-cascara",
+    "lacteos"
+   ],
+   "points": [
+    [
+     0.43,
+     0.267
+    ],
+    [
+     0.66,
+     0.286
+    ],
+    [
+     0.263,
+     0.365
+    ],
+    [
+     0.75,
+     0.415
+    ],
+    [
+     0.283,
+     0.533
+    ],
+    [
+     0.75,
+     0.583
+    ],
+    [
+     0.342,
+     0.69
+    ],
+    [
+     0.58,
+     0.67
+    ]
+   ],
+   "maxArea": 0.15
+  },
+  {
+   "id": "almibar",
+   "name": "Almíbar de miel y limón",
+   "category": "salsa",
+   "description": "Almíbar que empapa el hojaldre al salir del horno.",
+   "allergens": [],
+   "points": [],
+   "rest": true,
+   "components": [
+    "miel",
+    "azúcar",
+    "limón",
+    "agua"
+   ]
+  }
+ ]
+}

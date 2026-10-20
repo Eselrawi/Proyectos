@@ -1,0 +1,132 @@
+{
+ "id": "curry",
+ "crop": {
+  "cx": 0.49,
+  "cy": 0.5,
+  "r": 0.375
+ },
+ "restRadius": 0.9,
+ "ingredients": [
+  {
+   "id": "arroz",
+   "name": "Arroz blanco",
+   "category": "guarnición",
+   "description": "Arroz de grano corto cocido al vapor.",
+   "allergens": [],
+   "points": [
+    [
+     0.395,
+     0.4
+    ],
+    [
+     0.3,
+     0.65
+    ]
+   ],
+   "maxArea": 0.3
+  },
+  {
+   "id": "salsa-curry",
+   "name": "Salsa de curry",
+   "category": "salsa",
+   "description": "Guiso espeso y suave, más dulce que picante.",
+   "allergens": [
+    "gluten",
+    "soja",
+    "apio"
+   ],
+   "points": [
+    [
+     0.53,
+     0.84
+    ],
+    [
+     0.79,
+     0.46
+    ]
+   ],
+   "maxArea": 0.3,
+   "components": [
+    "roux de curry (harina y especias)",
+    "caldo de ternera",
+    "cebolla",
+    "manzana",
+    "salsa de soja"
+   ]
+  },
+  {
+   "id": "patata",
+   "name": "Patata",
+   "category": "guarnición",
+   "description": "Patata cocida en el propio guiso hasta que se deshace.",
+   "allergens": [],
+   "points": [
+    [
+     0.58,
+     0.58
+    ],
+    [
+     0.69,
+     0.66
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "zanahoria",
+   "name": "Zanahoria",
+   "category": "guarnición",
+   "description": "Zanahoria en trozos grandes, blanda y dulce.",
+   "allergens": [],
+   "points": [
+    [
+     0.49,
+     0.635
+    ],
+    [
+     0.75,
+     0.45
+    ]
+   ],
+   "maxArea": 0.06
+  },
+  {
+   "id": "ternera",
+   "name": "Ternera estofada",
+   "category": "proteína",
+   "description": "Carrillera de ternera cocinada hasta que se deshace.",
+   "allergens": [],
+   "points": [
+    [
+     0.67,
+     0.465
+    ],
+    [
+     0.43,
+     0.78
+    ],
+    [
+     0.55,
+     0.745
+    ]
+   ],
+   "maxArea": 0.12
+  },
+  {
+   "id": "fukujinzuke",
+   "name": "Encurtido rojo",
+   "category": "topping",
+   "description": "Verduras encurtidas con un punto dulce y ácido.",
+   "allergens": [
+    "sulfitos"
+   ],
+   "points": [
+    [
+     0.62,
+     0.19
+    ]
+   ],
+   "maxArea": 0.05
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+<resources>
+    <style name="Base.Theme.TuChefPersonal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.TuChefPersonal" parent="Base.Theme.TuChefPersonal">
+        <item name="colorPrimary">#C75000</item>
+        <item name="colorPrimaryVariant">#8B3800</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFE0CC</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:editTextColor">#333333</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:background">#FFF8F0</item>
+    </style>
+
+    <style name="ShapeAppearance.Rounded" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">#999999</item>
+        <item name="boxStrokeColor">#999999</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+</resources>

@@ -1,0 +1,53 @@
+{
+ "id": "hummus",
+ "crop": {
+  "cx": 0.52,
+  "cy": 0.5,
+  "r": 0.3
+ },
+ "restRadius": 0.8,
+ "ingredients": [
+  {
+   "id": "hummus",
+   "name": "Crema de garbanzo",
+   "category": "guarnición",
+   "description": "Garbanzo triturado con tahini, limón y ajo, trabajado hasta quedar sedoso.",
+   "allergens": [
+    "sesamo"
+   ],
+   "points": [],
+   "rest": true
+  },
+  {
+   "id": "perejil",
+   "name": "Perejil",
+   "category": "hoja",
+   "description": "Perejil fresco picado en el centro.",
+   "allergens": [],
+   "points": [
+    [
+     0.526,
+     0.474
+    ]
+   ],
+   "maxArea": 0.1
+  },
+  {
+   "id": "aceite",
+   "name": "Aceite de oliva virgen extra",
+   "category": "salsa",
+   "description": "Un chorro generoso en el hueco del hummus.",
+   "allergens": [],
+   "points": [
+    [
+     0.46,
+     0.64
+    ]
+   ],
+   "maxArea": 0.15,
+   "components": [
+    "aceite de oliva virgen extra"
+   ]
+  }
+ ]
+}

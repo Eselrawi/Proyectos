@@ -1,0 +1,176 @@
+{
+ "id": "paella",
+ "crop": {
+  "cx": 0.5,
+  "cy": 0.5,
+  "r": 0.32
+ },
+ "restRadius": 0.88,
+ "ingredients": [
+  {
+   "id": "arroz",
+   "name": "Arroz bomba al azafrán",
+   "category": "guarnición",
+   "description": "Grano corto que absorbe el caldo; el azafrán le da el color.",
+   "allergens": [],
+   "points": [],
+   "rest": true
+  },
+  {
+   "id": "mejillon",
+   "name": "Mejillón",
+   "category": "proteína",
+   "description": "Mejillón de roca abierto al vapor sobre el arroz.",
+   "allergens": [
+    "moluscos"
+   ],
+   "points": [
+    [
+     0.355,
+     0.291
+    ],
+    [
+     0.693,
+     0.338
+    ],
+    [
+     0.309,
+     0.511
+    ],
+    [
+     0.401,
+     0.724
+    ],
+    [
+     0.572,
+     0.742
+    ],
+    [
+     0.717,
+     0.667
+    ],
+    [
+     0.484,
+     0.179
+    ],
+    [
+     0.616,
+     0.182
+    ]
+   ],
+   "maxArea": 0.08
+  },
+  {
+   "id": "pimiento-rojo",
+   "name": "Pimiento rojo",
+   "category": "topping",
+   "description": "Tiras de pimiento asado, dulce y suave.",
+   "allergens": [],
+   "points": [
+    [
+     0.434,
+     0.282
+    ],
+    [
+     0.546,
+     0.31
+    ],
+    [
+     0.388,
+     0.455
+    ],
+    [
+     0.605,
+     0.498
+    ],
+    [
+     0.5,
+     0.658
+    ],
+    [
+     0.336,
+     0.686
+    ]
+   ],
+   "maxArea": 0.05
+  },
+  {
+   "id": "pimiento-amarillo",
+   "name": "Pimiento amarillo",
+   "category": "topping",
+   "description": "Tiras de pimiento amarillo, más dulce que el rojo.",
+   "allergens": [],
+   "points": [
+    [
+     0.395,
+     0.113
+    ],
+    [
+     0.776,
+     0.348
+    ],
+    [
+     0.25,
+     0.31
+    ]
+   ],
+   "maxArea": 0.06
+  },
+  {
+   "id": "aceituna",
+   "name": "Aceituna verde",
+   "category": "topping",
+   "description": "Aceituna verde sin hueso, toque salino.",
+   "allergens": [],
+   "points": [
+    [
+     0.303,
+     0.361
+    ],
+    [
+     0.608,
+     0.342
+    ],
+    [
+     0.441,
+     0.632
+    ],
+    [
+     0.641,
+     0.596
+    ],
+    [
+     0.688,
+     0.474
+    ]
+   ],
+   "maxArea": 0.01
+  },
+  {
+   "id": "perejil",
+   "name": "Perejil",
+   "category": "hoja",
+   "description": "Hierba fresca picada al final.",
+   "allergens": [],
+   "points": [
+    [
+     0.504,
+     0.282
+    ],
+    [
+     0.651,
+     0.455
+    ],
+    [
+     0.537,
+     0.545
+    ],
+    [
+     0.533,
+     0.868
+    ]
+   ],
+   "maxArea": 0.01
+  }
+ ]
+}

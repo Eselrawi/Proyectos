@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* Tokens: reflejan data/theme.json */
+@theme inline {
+  --color-carbon: #15120f;
+  --color-carbon2: #1d1915;
+  --color-pizarra: #26211c;
+  --color-linea: #3a332b;
+  --color-crema: #f3e9d8;
+  --color-crema2: #bfb2a0;
+  --color-oro: #d4a24c;
+  --color-oro-claro: #e8c27a;
+  --color-terracota: #c4572f;
+  --color-terracota-claro: #dd7a52;
+  --font-sans: var(--f-sans), system-ui, sans-serif;
+  --font-display: var(--f-display), Georgia, serif;
+}
+
+:root { color-scheme: dark; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; background: var(--color-carbon); }
+
+body {
+  overflow-x: clip;
+  background: var(--color-carbon);
+  color: var(--color-crema);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+/* Fondo "brasa viva": degradados cálidos sobre negro tinto. Sin texturas que se repitan, así que no hay juntas ni cortes. */
+.mesa {
+  background-color: #0f0908;
+  background-image:
+    radial-gradient(ellipse 52% 42% at 50% 40%, rgba(255, 165, 75, 0.36), transparent 70%),
+    radial-gradient(ellipse 46% 58% at 6% 104%, rgba(222, 86, 40, 0.5), transparent 70%),
+    radial-gradient(ellipse 50% 54% at 98% -6%, rgba(150, 40, 30, 0.55), transparent 72%),
+    radial-gradient(ellipse 78% 36% at 50% 122%, rgba(232, 145, 58, 0.22), transparent 70%),
+    radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(180deg, #1a100b 0%, #0f0908 100%);
+}
+
+:focus-visible { outline: 2px solid var(--color-oro); outline-offset: 3px; border-radius: 6px; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  border-radius: 999px; padding: .8rem 1.5rem; font-weight: 600; font-size: .95rem;
+  transition: transform .15s ease, background-color .2s ease, border-color .2s ease;
+}
+.btn:active { transform: scale(.97); }
+.btn-oro { background: var(--color-oro); color: var(--color-carbon); }
+.btn-oro:hover { background: var(--color-oro-claro); }
+.btn-terra { background: #b04a26; color: #fff; }
+.btn-terra:hover { background: #c4572f; }
+.btn-linea { border: 1.5px solid rgba(243, 233, 216, .55); background: rgba(243, 233, 216, .06); color: var(--color-crema); backdrop-filter: blur(6px); }
+.btn-linea:hover { border-color: var(--color-oro); background: rgba(212, 162, 76, .12); }
+
+.skeleton { background: linear-gradient(90deg, #26211c 25%, #302a23 50%, #26211c 75%); background-size: 200% 100%; animation: sk 1.4s linear infinite; }
+@keyframes sk { to { background-position: -200% 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+}
+
+/* Brasas del hero */
+.ember {
+  position: absolute; bottom: -12px; border-radius: 999px;
+  background: radial-gradient(circle, #ffd28a 0%, #e8913a 55%, transparent 72%);
+  box-shadow: 0 0 10px 2px rgba(255, 170, 70, .55);
+  opacity: 0; animation: ember-up linear infinite;
+}
+@keyframes ember-up {
+  0% { transform: translate3d(0, 0, 0) scale(1); opacity: 0; }
+  12% { opacity: .9; }
+  100% { transform: translate3d(28px, -560px, 0) scale(.3); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .ember { display: none; } }
+
+/* ---- v3: grano, cinta, vapor, scroll suave ---- */
+body::after {
+  content: ""; position: fixed; inset: 0; z-index: 70; pointer-events: none; opacity: .07; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.marquee-row { animation: marquee 38s linear infinite; }
+.marquee:hover .marquee-row { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-100%); } }
+
+.steam {
+  width: 56px; height: 120px; border-radius: 999px; filter: blur(16px); opacity: 0;
+  background: linear-gradient(to top, rgba(243, 233, 216, .35), transparent);
+  animation: steam-up 5s ease-in-out infinite;
+}
+@keyframes steam-up {
+  0% { transform: translateY(40px) scaleX(.8); opacity: 0; }
+  30% { opacity: .55; }
+  100% { transform: translateY(-90px) scaleX(1.5); opacity: 0; }
+}
+
+.intro-flame { filter: drop-shadow(0 0 18px rgba(255, 170, 70, .9)); animation: flame 1.6s ease-in-out infinite alternate; transform-origin: 50% 90%; }
+@keyframes flame { from { transform: scale(1) skewX(-2deg); } to { transform: scale(1.07, 1.1) skewX(3deg); } }
+@keyframes hint { 0%, 100% { transform: scaleY(.4); transform-origin: top; opacity: .4; } 50% { transform: scaleY(1); opacity: 1; } }
+
+.text-grad {
+  background: linear-gradient(100deg, var(--color-crema) 10%, var(--color-oro-claro) 55%, var(--color-terracota-claro) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* Puntos de ingrediente sobre el modelo 3D (hotspots de model-viewer) */
+.dish-mv { --progress-bar-color: transparent; outline: none; }
+.hotspot {
+  position: relative; display: block; width: 26px; height: 26px; padding: 0; border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, .9); background: rgba(0, 0, 0, .42); box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+  cursor: pointer; transition: opacity .25s, transform .2s, background-color .2s;
+}
+.hotspot::after { content: ""; position: absolute; inset: -9px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .45); animation: hot-pulse 2.4s ease-out infinite; }
+.hotspot:not([data-visible]) { opacity: 0; pointer-events: none; transform: scale(.6); }
+.hotspot:hover, .hotspot.is-on { transform: scale(1.18); background: var(--color-oro); border-color: #fff; }
+.hotspot-tip {
+  position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translateX(-50%) translateY(4px);
+  padding: 4px 10px; border-radius: 999px; background: rgba(15, 9, 8, .88); color: var(--color-crema);
+  font-size: 12px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .15s, transform .15s;
+}
+.hotspot:hover .hotspot-tip, .hotspot:focus-visible .hotspot-tip, .hotspot.is-on .hotspot-tip { opacity: 1; transform: translateX(-50%); }
+@keyframes hot-pulse { 0% { transform: scale(.7); opacity: .8; } 100% { transform: scale(1.5); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .hotspot::after { display: none; } }

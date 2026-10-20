@@ -1,0 +1,769 @@
+{
+ "pendienteConfirmar": true,
+ "categories": [
+  {
+   "id": "entrantes",
+   "name": "Entrantes"
+  },
+  {
+   "id": "principales",
+   "name": "Principales"
+  },
+  {
+   "id": "bowls",
+   "name": "Ensaladas y bowls"
+  },
+  {
+   "id": "postres",
+   "name": "Postres"
+  }
+ ],
+ "dishes": [
+  {
+   "id": "hummus",
+   "name": "Hummus de la casa",
+   "country": "Líbano",
+   "category": "entrantes",
+   "price": 7.5,
+   "description": "Garbanzo cremoso con aceite de oliva, pimentón y perejil, para untar.",
+   "tags": [
+    "vegano"
+   ],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "hummus",
+     "name": "Crema de garbanzo",
+     "category": "guarnición",
+     "description": "Garbanzo triturado con tahini, limón y ajo, trabajado hasta quedar sedoso.",
+     "allergens": [
+      "sesamo"
+     ],
+     "index": 1
+    },
+    {
+     "id": "aceite",
+     "name": "Aceite de oliva virgen extra",
+     "category": "salsa",
+     "description": "Un chorro generoso en el hueco del hummus.",
+     "allergens": [],
+     "components": [
+      "aceite de oliva virgen extra"
+     ],
+     "index": 3
+    }
+   ],
+   "assets": {
+    "color": "/dishes/hummus/color.webp",
+    "depth": "/dishes/hummus/depth.webp",
+    "ids": "/dishes/hummus/ids.png"
+   }
+  },
+  {
+   "id": "gyoza",
+   "name": "Gyozas a la plancha",
+   "country": "Japón",
+   "category": "entrantes",
+   "price": 8.9,
+   "description": "Nueve empanadillas de cerdo y col, doradas por un lado.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "gyoza",
+     "name": "Gyoza a la plancha",
+     "category": "proteína",
+     "description": "Masa fina de trigo rellena de cerdo, col y jengibre; dorada por abajo y al vapor.",
+     "allergens": [
+      "gluten",
+      "soja",
+      "sesamo"
+     ],
+     "index": 1
+    }
+   ],
+   "assets": {
+    "color": "/dishes/gyoza/color.webp",
+    "depth": "/dishes/gyoza/depth.webp",
+    "ids": "/dishes/gyoza/ids.png"
+   }
+  },
+  {
+   "id": "croquetas",
+   "name": "Croquetas caseras con alioli",
+   "country": "España",
+   "category": "entrantes",
+   "price": 8.5,
+   "description": "Seis croquetas cremosas, rebozadas al momento, con alioli de ajo.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "croqueta",
+     "name": "Croqueta casera",
+     "category": "proteína",
+     "description": "Bechamel cremosa con jamón, rebozada en huevo y pan rallado.",
+     "allergens": [
+      "gluten",
+      "lacteos",
+      "huevo"
+     ],
+     "index": 1
+    },
+    {
+     "id": "alioli",
+     "name": "Alioli",
+     "category": "salsa",
+     "description": "Emulsión de ajo y aceite, para mojar.",
+     "allergens": [
+      "huevo"
+     ],
+     "components": [
+      "aceite de oliva",
+      "ajo",
+      "huevo",
+      "limón"
+     ],
+     "index": 2
+    }
+   ],
+   "assets": {
+    "color": "/dishes/croquetas/color.webp",
+    "depth": "/dishes/croquetas/depth.webp",
+    "ids": "/dishes/croquetas/ids.png"
+   }
+  },
+  {
+   "id": "paella",
+   "name": "Paella de mejillones",
+   "country": "España",
+   "category": "principales",
+   "price": 17.5,
+   "description": "Arroz de grano corto con azafrán, mejillones y pimiento rojo, hecho al momento.",
+   "tags": [],
+   "star": true,
+   "ingredients": [
+    {
+     "id": "arroz",
+     "name": "Arroz bomba al azafrán",
+     "category": "guarnición",
+     "description": "Grano corto que absorbe el caldo; el azafrán le da el color.",
+     "allergens": [],
+     "index": 1
+    },
+    {
+     "id": "mejillon",
+     "name": "Mejillón",
+     "category": "proteína",
+     "description": "Mejillón de roca abierto al vapor sobre el arroz.",
+     "allergens": [
+      "moluscos"
+     ],
+     "index": 2
+    },
+    {
+     "id": "pimiento-rojo",
+     "name": "Pimiento rojo",
+     "category": "topping",
+     "description": "Tiras de pimiento asado, dulce y suave.",
+     "allergens": [],
+     "index": 3
+    },
+    {
+     "id": "pimiento-amarillo",
+     "name": "Pimiento amarillo",
+     "category": "topping",
+     "description": "Tiras de pimiento amarillo, más dulce que el rojo.",
+     "allergens": [],
+     "index": 4
+    },
+    {
+     "id": "aceituna",
+     "name": "Aceituna verde",
+     "category": "topping",
+     "description": "Aceituna verde sin hueso, toque salino.",
+     "allergens": [],
+     "index": 5
+    },
+    {
+     "id": "perejil",
+     "name": "Perejil",
+     "category": "hoja",
+     "description": "Hierba fresca picada al final.",
+     "allergens": [],
+     "index": 6
+    }
+   ],
+   "assets": {
+    "color": "/dishes/paella/color.webp",
+    "depth": "/dishes/paella/depth.webp",
+    "ids": "/dishes/paella/ids.png"
+   }
+  },
+  {
+   "id": "curry",
+   "name": "Curry japonés con ternera",
+   "country": "Japón",
+   "category": "principales",
+   "price": 14.9,
+   "description": "Guiso espeso de ternera, patata y zanahoria sobre arroz blanco.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "arroz",
+     "name": "Arroz blanco",
+     "category": "guarnición",
+     "description": "Arroz de grano corto cocido al vapor.",
+     "allergens": [],
+     "index": 1
+    },
+    {
+     "id": "salsa-curry",
+     "name": "Salsa de curry",
+     "category": "salsa",
+     "description": "Guiso espeso y suave, más dulce que picante.",
+     "allergens": [
+      "gluten",
+      "soja",
+      "apio"
+     ],
+     "components": [
+      "roux de curry (harina y especias)",
+      "caldo de ternera",
+      "cebolla",
+      "manzana",
+      "salsa de soja"
+     ],
+     "index": 2
+    },
+    {
+     "id": "patata",
+     "name": "Patata",
+     "category": "guarnición",
+     "description": "Patata cocida en el propio guiso hasta que se deshace.",
+     "allergens": [],
+     "index": 3
+    },
+    {
+     "id": "zanahoria",
+     "name": "Zanahoria",
+     "category": "guarnición",
+     "description": "Zanahoria en trozos grandes, blanda y dulce.",
+     "allergens": [],
+     "index": 4
+    },
+    {
+     "id": "ternera",
+     "name": "Ternera estofada",
+     "category": "proteína",
+     "description": "Carrillera de ternera cocinada hasta que se deshace.",
+     "allergens": [],
+     "index": 5
+    },
+    {
+     "id": "fukujinzuke",
+     "name": "Encurtido rojo",
+     "category": "topping",
+     "description": "Verduras encurtidas con un punto dulce y ácido.",
+     "allergens": [
+      "sulfitos"
+     ],
+     "index": 6
+    }
+   ],
+   "assets": {
+    "color": "/dishes/curry/color.webp",
+    "depth": "/dishes/curry/depth.webp",
+    "ids": "/dishes/curry/ids.png"
+   }
+  },
+  {
+   "id": "ramen",
+   "name": "Ramen picante",
+   "country": "Corea",
+   "category": "principales",
+   "price": 13.9,
+   "description": "Fideos en caldo rojo de guindilla con cebolleta y huevo.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "fideos",
+     "name": "Fideos en caldo rojo",
+     "category": "guarnición",
+     "description": "Fideos de trigo ondulados cocidos al dente en caldo de ternera con guindilla coreana.",
+     "allergens": [
+      "gluten",
+      "huevo",
+      "soja",
+      "apio"
+     ],
+     "components": [
+      "caldo de ternera",
+      "gochugaru (guindilla coreana)",
+      "ajo",
+      "salsa de soja"
+     ],
+     "index": 1
+    },
+    {
+     "id": "cebolleta",
+     "name": "Cebolleta",
+     "category": "hoja",
+     "description": "Cebolleta fresca cortada fina.",
+     "allergens": [],
+     "index": 2
+    },
+    {
+     "id": "carne",
+     "name": "Ternera desmenuzada",
+     "category": "proteína",
+     "description": "Ternera cocinada en el caldo y deshilachada.",
+     "allergens": [
+      "soja"
+     ],
+     "index": 3
+    }
+   ],
+   "assets": {
+    "color": "/dishes/ramen/color.webp",
+    "depth": "/dishes/ramen/depth.webp",
+    "ids": "/dishes/ramen/ids.png"
+   }
+  },
+  {
+   "id": "pasta",
+   "name": "Espaguetis con albóndigas",
+   "country": "Italia",
+   "category": "principales",
+   "price": 13.5,
+   "description": "Albóndigas de ternera en salsa de tomate sobre espagueti al dente.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "espagueti",
+     "name": "Espagueti",
+     "category": "guarnición",
+     "description": "Pasta de sémola de trigo duro, cocida al dente.",
+     "allergens": [
+      "gluten"
+     ],
+     "index": 1
+    },
+    {
+     "id": "albondiga",
+     "name": "Albóndigas en salsa de tomate",
+     "category": "proteína",
+     "description": "Ternera picada con pan, huevo, ajo y perejil, guisada en salsa de tomate.",
+     "allergens": [
+      "gluten",
+      "huevo",
+      "lacteos",
+      "apio"
+     ],
+     "components": [
+      "tomate",
+      "cebolla",
+      "ajo",
+      "albahaca",
+      "aceite de oliva"
+     ],
+     "index": 2
+    }
+   ],
+   "assets": {
+    "color": "/dishes/pasta/color.webp",
+    "depth": "/dishes/pasta/depth.webp",
+    "ids": "/dishes/pasta/ids.png"
+   }
+  },
+  {
+   "id": "poke",
+   "name": "Poke bowl de tofu y mango",
+   "country": "Hawái",
+   "category": "bowls",
+   "price": 14.5,
+   "description": "Arroz de sushi, tofu crujiente, edamame, aguacate, mango y alga wakame.",
+   "tags": [
+    "vegetariano"
+   ],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "arroz",
+     "name": "Arroz de sushi",
+     "category": "guarnición",
+     "description": "Arroz pegajoso aliñado con vinagre de arroz.",
+     "allergens": [
+      "sulfitos"
+     ],
+     "index": 1
+    },
+    {
+     "id": "edamame",
+     "name": "Edamame",
+     "category": "topping",
+     "description": "Haba de soja tierna, hervida y desgranada.",
+     "allergens": [
+      "soja"
+     ],
+     "index": 2
+    },
+    {
+     "id": "mango",
+     "name": "Mango",
+     "category": "topping",
+     "description": "Dados de mango maduro.",
+     "allergens": [],
+     "index": 3
+    },
+    {
+     "id": "wakame",
+     "name": "Alga wakame",
+     "category": "hoja",
+     "description": "Alga marinada, suave y ligeramente dulce.",
+     "allergens": [
+      "sesamo"
+     ],
+     "index": 4
+    },
+    {
+     "id": "tofu-marinado",
+     "name": "Tofu marinado",
+     "category": "proteína",
+     "description": "Tofu firme marinado en soja y jengibre.",
+     "allergens": [
+      "soja",
+      "sesamo"
+     ],
+     "index": 5
+    },
+    {
+     "id": "tofu-frito",
+     "name": "Tofu frito",
+     "category": "proteína",
+     "description": "Tiras de tofu frito, dulces y crujientes.",
+     "allergens": [
+      "soja"
+     ],
+     "index": 6
+    },
+    {
+     "id": "aguacate",
+     "name": "Aguacate",
+     "category": "topping",
+     "description": "Aguacate maduro, cremoso.",
+     "allergens": [],
+     "index": 7
+    },
+    {
+     "id": "pepino",
+     "name": "Pepino encurtido",
+     "category": "topping",
+     "description": "Pepino en láminas, aliñado con vinagre y sésamo.",
+     "allergens": [
+      "sesamo",
+      "sulfitos"
+     ],
+     "index": 8
+    }
+   ],
+   "assets": {
+    "color": "/dishes/poke/color.webp",
+    "depth": "/dishes/poke/depth.webp",
+    "ids": "/dishes/poke/ids.png"
+   }
+  },
+  {
+   "id": "bibimbap",
+   "name": "Bibimbap con huevo frito",
+   "country": "Corea",
+   "category": "bowls",
+   "price": 14.9,
+   "description": "Arroz con verduras salteadas, kimchi, tofu y huevo frito.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "huevo",
+     "name": "Huevo frito",
+     "category": "proteína",
+     "description": "Huevo frito con la yema líquida y sésamo por encima.",
+     "allergens": [
+      "huevo",
+      "sesamo"
+     ],
+     "index": 1
+    },
+    {
+     "id": "lombarda",
+     "name": "Col lombarda fermentada",
+     "category": "guarnición",
+     "description": "Col morada encurtida, ácida y crujiente.",
+     "allergens": [
+      "sulfitos"
+     ],
+     "index": 2
+    },
+    {
+     "id": "kimchi",
+     "name": "Kimchi de rábano",
+     "category": "guarnición",
+     "description": "Rábano fermentado con guindilla, ajo y salsa de pescado.",
+     "allergens": [
+      "pescado",
+      "crustaceos"
+     ],
+     "index": 3
+    },
+    {
+     "id": "tofu",
+     "name": "Tofu",
+     "category": "proteína",
+     "description": "Tofu firme en dados, con un toque de guindilla.",
+     "allergens": [
+      "soja"
+     ],
+     "index": 4
+    },
+    {
+     "id": "hojas-verdes",
+     "name": "Hojas verdes",
+     "category": "hoja",
+     "description": "Brotes tiernos de rúcula y espinaca.",
+     "allergens": [],
+     "index": 5
+    },
+    {
+     "id": "zanahoria",
+     "name": "Zanahoria",
+     "category": "guarnición",
+     "description": "Zanahoria en juliana, salteada.",
+     "allergens": [],
+     "index": 6
+    },
+    {
+     "id": "gochujang",
+     "name": "Gochujang",
+     "category": "salsa",
+     "description": "Pasta fermentada de guindilla, dulce y picante.",
+     "allergens": [
+      "soja",
+      "gluten"
+     ],
+     "components": [
+      "guindilla coreana",
+      "arroz glutinoso",
+      "soja fermentada",
+      "sal"
+     ],
+     "index": 7
+    }
+   ],
+   "assets": {
+    "color": "/dishes/bibimbap/color.webp",
+    "depth": "/dishes/bibimbap/depth.webp",
+    "ids": "/dishes/bibimbap/ids.png"
+   }
+  },
+  {
+   "id": "cesar",
+   "name": "Ensalada César con pollo",
+   "country": "México",
+   "category": "bowls",
+   "price": 12.5,
+   "description": "Lechuga, pollo al horno, picatostes, parmesano y reducción de vinagre.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "pollo",
+     "name": "Pollo al horno",
+     "category": "proteína",
+     "description": "Muslo de pollo asado con la piel dorada.",
+     "allergens": [],
+     "index": 1
+    },
+    {
+     "id": "lechuga",
+     "name": "Lechuga romana",
+     "category": "hoja",
+     "description": "Lechuga crujiente aliñada con salsa César (huevo, anchoa y mostaza).",
+     "allergens": [
+      "huevo",
+      "pescado",
+      "mostaza"
+     ],
+     "index": 2
+    },
+    {
+     "id": "picatostes",
+     "name": "Picatostes",
+     "category": "topping",
+     "description": "Cubos de pan tostado con aceite y ajo.",
+     "allergens": [
+      "gluten"
+     ],
+     "index": 3
+    },
+    {
+     "id": "parmesano",
+     "name": "Parmesano",
+     "category": "topping",
+     "description": "Lascas de parmesano curado.",
+     "allergens": [
+      "lacteos"
+     ],
+     "index": 4
+    },
+    {
+     "id": "balsamico",
+     "name": "Reducción de vinagre",
+     "category": "salsa",
+     "description": "Vinagre de Módena reducido hasta quedar espeso.",
+     "allergens": [
+      "sulfitos"
+     ],
+     "components": [
+      "vinagre de Módena",
+      "azúcar"
+     ],
+     "index": 5
+    }
+   ],
+   "assets": {
+    "color": "/dishes/cesar/color.webp",
+    "depth": "/dishes/cesar/depth.webp",
+    "ids": "/dishes/cesar/ids.png"
+   }
+  },
+  {
+   "id": "pannacotta",
+   "name": "Panna cotta con frutos rojos",
+   "country": "Italia",
+   "category": "postres",
+   "price": 6.5,
+   "description": "Nata cuajada a la vainilla con coulis de frutos rojos.",
+   "tags": [],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "panna-cotta",
+     "name": "Panna cotta",
+     "category": "guarnición",
+     "description": "Nata cuajada con vainilla, temblorosa.",
+     "allergens": [
+      "lacteos"
+     ],
+     "index": 1
+    },
+    {
+     "id": "fresa",
+     "name": "Fresa",
+     "category": "topping",
+     "description": "Fresa partida por la mitad.",
+     "allergens": [],
+     "index": 2
+    },
+    {
+     "id": "mora",
+     "name": "Mora",
+     "category": "topping",
+     "description": "Mora silvestre, ácida y jugosa.",
+     "allergens": [],
+     "index": 3
+    },
+    {
+     "id": "arandano",
+     "name": "Arándano",
+     "category": "topping",
+     "description": "Arándano azul entero.",
+     "allergens": [],
+     "index": 4
+    },
+    {
+     "id": "grosella-roja",
+     "name": "Grosella roja",
+     "category": "topping",
+     "description": "Racimo de grosellas rojas.",
+     "allergens": [],
+     "index": 5
+    },
+    {
+     "id": "grosella-espinosa",
+     "name": "Grosella espinosa",
+     "category": "topping",
+     "description": "Fruta ácida, translúcida y con venas.",
+     "allergens": [],
+     "index": 6
+    },
+    {
+     "id": "coulis",
+     "name": "Coulis de frutos rojos",
+     "category": "salsa",
+     "description": "Frutos rojos cocidos y colados.",
+     "allergens": [],
+     "components": [
+      "fresa",
+      "frambuesa",
+      "azúcar",
+      "limón"
+     ],
+     "index": 8
+    }
+   ],
+   "assets": {
+    "color": "/dishes/pannacotta/color.webp",
+    "depth": "/dishes/pannacotta/depth.webp",
+    "ids": "/dishes/pannacotta/ids.png"
+   }
+  },
+  {
+   "id": "baklava",
+   "name": "Baklava de nueces",
+   "country": "Turquía",
+   "category": "postres",
+   "price": 6.9,
+   "description": "Hojaldre filo con nueces y almíbar de miel y limón, cortado en porciones.",
+   "tags": [
+    "vegetariano"
+   ],
+   "star": false,
+   "ingredients": [
+    {
+     "id": "baklava",
+     "name": "Hojaldre filo con nueces",
+     "category": "proteína",
+     "description": "Capas finísimas de masa filo con nueces picadas y mantequilla.",
+     "allergens": [
+      "gluten",
+      "frutos-cascara",
+      "lacteos"
+     ],
+     "index": 1
+    },
+    {
+     "id": "almibar",
+     "name": "Almíbar de miel y limón",
+     "category": "salsa",
+     "description": "Almíbar que empapa el hojaldre al salir del horno.",
+     "allergens": [],
+     "components": [
+      "miel",
+      "azúcar",
+      "limón",
+      "agua"
+     ],
+     "index": 2
+    }
+   ],
+   "assets": {
+    "color": "/dishes/baklava/color.webp",
+    "depth": "/dishes/baklava/depth.webp",
+    "ids": "/dishes/baklava/ids.png"
+   }
+  }
+ ]
+}

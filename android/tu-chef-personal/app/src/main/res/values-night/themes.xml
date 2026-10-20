@@ -1,0 +1,5 @@
+<resources>
+    <style name="Base.Theme.TuChefPersonal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.TuChefPersonal" parent="Base.Theme.TuChefPersonal" />
+</resources>

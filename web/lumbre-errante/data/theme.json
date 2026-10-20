@@ -1,0 +1,18 @@
+{
+  "name": "Lumbre Errante",
+  "colors": {
+    "carbon": "#15120f",
+    "carbon2": "#1d1915",
+    "pizarra": "#26211c",
+    "linea": "#3a332b",
+    "crema": "#f3e9d8",
+    "crema2": "#bfb2a0",
+    "oro": "#d4a24c",
+    "oroClaro": "#e8c27a",
+    "terracota": "#c4572f",
+    "terracotaClaro": "#dd7a52"
+  },
+  "fonts": { "display": "Fraunces", "sans": "DM Sans" },
+  "radius": { "card": "20px", "pill": "999px" },
+  "textures": { "mesa": "oscura, madera de nogal / pizarra", "viñeta": "0.55" }
+}

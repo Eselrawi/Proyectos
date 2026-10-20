@@ -1,5 +1,6 @@
 # Publica los proyectos web en GitHub Pages cada vez que se sube un cambio a main.
 #   Alquinaterra → https://eselrawi.github.io/Proyectos/alquinaterra/
+#   TechFix      → https://eselrawi.github.io/Proyectos/techfix/
 name: Publicar en GitHub Pages
 
 on:
@@ -25,16 +26,17 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: alquinaterra/package-lock.json
+          cache-dependency-path: web/alquinaterra/package-lock.json
       - name: Compilar Alquinaterra
-        working-directory: alquinaterra
+        working-directory: web/alquinaterra
         run: |
           npm ci
           npm run build
       - name: Preparar el sitio
         run: |
           mkdir -p _site
-          cp -r alquinaterra/dist _site/alquinaterra
+          cp -r web/alquinaterra/dist _site/alquinaterra
+          cp -r web/techfix _site/techfix
           cp site/index.html _site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

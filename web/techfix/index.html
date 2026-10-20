@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix | Gestión de incidencias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <span>⚡</span>
+            TechFix
+        </div>
+
+        <nav>
+            <button class="active">📊 Dashboard</button>
+            <button>🎫 Incidencias</button>
+            <button>👥 Usuarios</button>
+            <button>⚙️ Configuración</button>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="user">
+                <div class="avatar">RG</div>
+                <div>
+                    <strong>Raúl Gómez</strong>
+                    <small>Administrador</small>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+
+        <header>
+            <div>
+                <h1>Dashboard</h1>
+                <p>Resumen de las incidencias informáticas</p>
+            </div>
+
+            <button class="new-ticket" onclick="openModal()">
+                + Nueva incidencia
+            </button>
+        </header>
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <span class="stat-icon blue">🎫</span>
+                <div>
+                    <small>Total incidencias</small>
+                    <h2 id="total">6</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-icon orange">⏳</span>
+                <div>
+                    <small>Pendientes</small>
+                    <h2 id="pending">2</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-icon purple">🔧</span>
+                <div>
+                    <small>En progreso</small>
+                    <h2 id="progress">2</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-icon green">✓</span>
+                <div>
+                    <small>Resueltas</small>
+                    <h2 id="resolved">2</h2>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content-card">
+
+            <div class="card-header">
+                <div>
+                    <h2>Incidencias recientes</h2>
+                    <p>Gestiona las incidencias del sistema</p>
+                </div>
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="🔍 Buscar incidencia..."
+                    onkeyup="searchTickets()"
+                >
+            </div>
+
+            <div class="filters">
+                <button class="filter active" onclick="filterTickets('all', this)">Todas</button>
+                <button class="filter" onclick="filterTickets('Pendiente', this)">Pendientes</button>
+                <button class="filter" onclick="filterTickets('En progreso', this)">En progreso</button>
+                <button class="filter" onclick="filterTickets('Resuelta', this)">Resueltas</button>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Incidencia</th>
+                            <th>Categoría</th>
+                            <th>Prioridad</th>
+                            <th>Estado</th>
+                            <th>Usuario</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="ticketTable"></tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2>Nueva incidencia</h2>
+                <button onclick="closeModal()">×</button>
+            </div>
+
+            <input id="title" type="text" placeholder="Título de la incidencia">
+
+            <textarea
+                id="description"
+                placeholder="Describe el problema..."
+            ></textarea>
+
+            <select id="category">
+                <option>Hardware</option>
+                <option>Software</option>
+                <option>Red</option>
+                <option>Otros</option>
+            </select>
+
+            <select id="priority">
+                <option>Alta</option>
+                <option>Media</option>
+                <option>Baja</option>
+            </select>
+
+            <button class="new-ticket" onclick="addTicket()">
+                Crear incidencia
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
